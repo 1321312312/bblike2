@@ -5,7 +5,7 @@ echo "请输入交流群号"
 read -p "交流群： " qun
 echo "请输入你的内网ip" 
 read -p "内网ip： " ip
-cp /root/winnerpubg/restart.sh /root/restart.sh
+cp /root/bblike2/restart.sh /root/restart.sh
 chmod +x restart.sh
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
@@ -28,8 +28,8 @@ cd libpcap-1.8.1
 make
 make install
 
-git clone https://github.com/chaojibinbin/winnerpubg.git
-cd winnerpubg/
+git clone https://github.com/1321312312/bblike2.git
+cd bblike2/
 npm i
 npm i -g pino
 npm install -g forever
